@@ -1,37 +1,24 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/0774ddf128.js" crossorigin="anonymous"></script>
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
-<body>
-    @include('inc.navbar')
-    <div class = 'container'>
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
-</body>
-</html>
+Steps to run the project:
 
 
-<!--___________________▄▄▄▀▀▀▀▀▀▀▄
+Before starting these steps install xampp or wampp or mampp
+
+
+-First of all you need to import the github project into a folder in htdocs. You can do that with this command: git clone https://github.com/RolandUdv/bchallenge.git
+-Then you cd into the project folder from the command prompt or a terminal if you are using mac: cd [ProjectName]
+-Then you need to install composer.First you install it globally from the website http://composer.org
+-After you installed this software you go to the command prompt or terminal and in the project folder you type composer install
+-After that you need to install the npm dependencies: npm install
+-The next step is: cp .env.example .env(if using windows instead of cp type copy)
+-Generate an app encryption key: php artisan key:generate
+-In the .env file fill in the db name username password
+-After that migrate the database using this command: php artisan migrate
+-After you complete all this steps just run in the terminal php artisan serve
+-After starting the server go to your browser and type localhost:8000. It should bring up the project
+-If it is working you can go to register and create a user. It can be a fake email.
+
+/*___________________▄▄▄▀▀▀▀▀▀▀▄
  _______________▄▀▀____▀▀▀▀▄____█
  ___________▄▀▀__▀▀▀▀▀▀▄___▀▄___█
  __________█▄▄▄▄▄▄_______▀▄__▀▄__█
@@ -121,5 +108,4 @@
  ________________________█▒▒▒▒▒▒▒▒▒▒▒░░░█
  __________________________██▒▒▒▒▒▒░░░█▀
  _____________________________█░░░░░█▀
- _______________________________▀▀▀▀@Adam-->
-
+ _______________________________▀▀▀▀*/
