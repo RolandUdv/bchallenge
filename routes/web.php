@@ -16,7 +16,11 @@ Route::get('/categories', 'PagesController@categories' );
 Route::get('/services', 'PagesController@services' );
 Route::get('/about', 'PagesController@about' );
 
-
+Route::prefix('admin')->group(function(){
+Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
+Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
+Route::get('/', 'AdminController@index' )->name('admin.admin-dashboard');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -1,0 +1,6 @@
+If you want to change the navbar you need to change the code in the following file: resources/views/inc/navbar.blade.php
+The main layout of the app is in the following file: resources/views/layouts/app.blade.php
+The pages layouts are in resources/vies/shop--I created just a few pages to test
+The admin dashboard is in resources/views/admin/admin-dashboard.blade.php
+
+At the moment it is a bit complicated to create an admin user and probably you`ll have some errors and we don`t have time for stuff like this so i`ll sort it out on monday :D

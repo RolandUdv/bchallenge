@@ -22,6 +22,7 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                     <a class="nav-item nav-link" href="/services"><i class="fas fa-shopping-cart"></i> Shopping Cart</a>
+
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
