@@ -15,11 +15,13 @@
                     <ul class="navbar-nav mr-auto">
                           <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
                           <a class="nav-item nav-link" href="/about">About</a>
+                          <a class="nav-item nav-link" href="/categories">Categories</a>
                           <a class="nav-item nav-link" href="/services">Services</a>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="/services"><i class="fas fa-shopping-cart"></i> Shopping Cart</a>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
@@ -32,8 +34,8 @@
                             @endif
                         @else
                             <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><i class="fas fa-portrait"> </i>
+                                     {{ Auth::user()->name }} <span class="caret"> </span>
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
