@@ -67,9 +67,14 @@
             
         </nav>
 
-        {{-- <nav class="navbar navbar-light bg-light"> <!-- Search Bar -->
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </nav> --}}
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+                <div class="container">
+        {{-- <nav class="navbar navbar-light bg-light"> <!-- Search Bar --> --}}
+                    <form class="form-inline">
+                    <form class="form-inline md-form mr-auto mb-4">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Search">
+                        <button class="btn aqua-gradient btn-rounded btn-sm my-0" type="submit">Search</button>
+                    </form>
+                </div>
+        </nav>
+            

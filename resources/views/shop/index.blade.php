@@ -6,10 +6,9 @@
     <p>This is the Golf Shop first page</p>
     </div>
 
-
     <div class = 'row'>
 
-        <div class="col-sm-6 col-md-5">
+        <div class="col-sm-6 col-md-4">
            <div class="img-thumbnail">
                 <img src="https://www.iconsdb.com/icons/preview/red/car-27-xxl.png" alt="">
                <div class="caption">
@@ -28,7 +27,7 @@
         </div>
 
 
-         <div class="col-sm-6 col-md-5">
+         <div class="col-sm-6 col-md-4">
                    <div class="img-thumbnail">
                         <img src="https://www.iconsdb.com/icons/preview/red/car-27-xxl.png" alt="">
                        <div class="caption">
@@ -47,7 +46,7 @@
           </div>
 
 
-        <div class="col-sm-6 col-md-5">
+        <div class="col-sm-6 col-md-4">
            <div class="img-thumbnail">
                 <img src="https://www.iconsdb.com/icons/preview/red/car-27-xxl.png" alt="">
                <div class="caption">
@@ -66,7 +65,7 @@
         </div>
 
 
-         <div class="col-sm-6 col-md-5">
+         <div class="col-sm-6 col-md-4">
                    <div class="img-thumbnail">
                         <img src="https://www.iconsdb.com/icons/preview/red/car-27-xxl.png" alt="">
                        <div class="caption">
