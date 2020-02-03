@@ -18,7 +18,8 @@
     <script src="https://kit.fontawesome.com/0774ddf128.js" crossorigin="anonymous"></script>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ URL::to('css/app.css') }}" rel="stylesheet">
+    @yield('styles');
 </head>
 <body>
     @include('inc.navbar')
