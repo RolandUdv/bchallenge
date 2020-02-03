@@ -67,14 +67,16 @@
             
         </nav>
 
+
+
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
                 <div class="container">
-        {{-- <nav class="navbar navbar-light bg-light"> <!-- Search Bar --> --}}
-                    <form class="form-inline">
-                    <form class="form-inline md-form mr-auto mb-4">
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Search">
-                        <button class="btn aqua-gradient btn-rounded btn-sm my-0" type="submit">Search</button>
-                    </form>
+                        <div class="col-md-11">
+                                <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <div class="col-md-6">
+                                <button class="btn aqua-gradient btn-rounded btn-sm my-0" type="submit">Search</button>
+                        </div>
                 </div>
         </nav>
             
