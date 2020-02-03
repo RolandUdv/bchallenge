@@ -19,7 +19,17 @@
 
     <!-- Styles -->
     <link href="{{ URL::to('css/app.css') }}" rel="stylesheet">
-    @yield('styles');
+    @yield('styles')
+    <style>
+            .bg-white {
+                background: rgb(51,51,51)!important;
+                background: linear-gradient(90deg, rgba(51,51,51,1) 20%, rgba(0,204,255,1) 100%)!important;
+            }
+            .navbar-light .navbar-nav .nav-link {
+                color: #ffffff!important;
+            }
+    </style>
+
 </head>
 <body>
     @include('inc.navbar')
