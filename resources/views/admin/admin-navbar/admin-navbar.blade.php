@@ -14,9 +14,9 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                           <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-                          <a class="nav-item nav-link" href="/about">About</a>
-                          <a class="nav-item nav-link" href="/products">Producs</a>
-                          <a class="nav-item nav-link" href="/services">Services</a>
+                          <a class="nav-item nav-link" href="/about">Main website</a>
+                          <a class="nav-item nav-link" href="/products">Add products</a>
+                          <a class="nav-item nav-link" href="/services">Add categories</a>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -28,14 +28,6 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
-
-
-                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('admin.login') }}">{{ __('Admin') }}</a>
-                               </li>
-
-
-
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -64,9 +56,3 @@
                 </div>
             </div>
         </nav>
-        <nav class="navbar navbar-light bg-light"> <!-- Search Bar -->
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </nav>

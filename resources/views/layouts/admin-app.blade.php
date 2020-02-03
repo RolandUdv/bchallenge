@@ -18,14 +18,16 @@
     <script src="https://kit.fontawesome.com/0774ddf128.js" crossorigin="anonymous"></script>
 
     <!-- Styles -->
-    <link href="{{ URL::to('css/app.css') }}" rel="stylesheet">
-    @yield('styles');
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    @include('inc.navbar')
+    @include('inc.navbar-admin')
+
     <div class = 'container'>
         <main class="py-4">
+
             @yield('content')
+            <h1>Admin layout page!</h1>
         </main>
     </div>
 </body>

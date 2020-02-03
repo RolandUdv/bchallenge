@@ -13,7 +13,7 @@ class PagesController extends Controller
     }
     public function products(){
         $title = 'Welcome to the Golf Shop--Products page';
-        return view('shop.products')->with('titlee', $title);
+        return view('shop.products')->with('title', $title);
     }
     public function services(){
         $data = array(
@@ -24,7 +24,9 @@ class PagesController extends Controller
     }
     public function about(){
         $title = 'Welcome to the Golf Shop--About page';
-        return view('shop.about')->with('titlee', $title);
+        return view('shop.about')->with('title', $title);
     }
+
+
 
 }
