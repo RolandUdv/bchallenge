@@ -11,9 +11,9 @@ class PagesController extends Controller
         $title = 'Welcome to the Golf Shop';
         return view('shop.index')->with('title', $title);
     }
-    public function categories(){
-        $title = 'Welcome to the Golf Shop--Categories page';
-        return view('shop.categories')->with('titlee', $title);
+    public function products(){
+        $title = 'Welcome to the Golf Shop--Products page';
+        return view('shop.products')->with('titlee', $title);
     }
     public function services(){
         $data = array(

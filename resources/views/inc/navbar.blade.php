@@ -15,7 +15,7 @@
                     <ul class="navbar-nav mr-auto">
                           <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
                           <a class="nav-item nav-link" href="/about">About</a>
-                          <a class="nav-item nav-link" href="/categories">Categories</a>
+                          <a class="nav-item nav-link" href="/products">Producs</a>
                           <a class="nav-item nav-link" href="/services">Services</a>
                     </ul>
 
